@@ -1,0 +1,32 @@
+baseURL = "http://skade.schwarzvogel.de/~klausman/armadoc/"
+languageCode = "en-us"
+title = "Arma Docs for PA"
+theme = "hugo-theme-techdoc"
+publishDir = "/home/klausman/.www/armadoc/"
+
+
+defaultContentLanguageInSubdir= false
+DefaultContentLanguage = "en"
+
+hasCJKLanguage = false
+
+pygmentsUseClasses = true
+pygmentsCodefences = true
+
+enableMissingTranslationPlaceholders = false
+
+[Params]
+
+    # Theme settings section
+    dateformat = "2006-01-02" # default "2 Jan 2006"
+    # See the format reference https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+
+    # path name excluded from documentation menu
+    menu_exclusion = ["archives", "blog", "entry", "post", "posts", "pages/tfdocs/"]
+
+
+# Global menu section
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
