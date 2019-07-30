@@ -65,7 +65,8 @@ this will take some time.
 The modpack URL for the Event repo is
 `https://swifty.projectawesome.net/event3/`. So to add it to Swifty, click `Add
 Repository` at the bottom of the main window, fill in the URL and click
-`Import`.
+`Import`. To add the WW2 repo, use the URL
+`https://swifty.projectawesome.net/ww6/` (trust me, the URL makes sense).
 
 The next screen should look roughly like this:
 
