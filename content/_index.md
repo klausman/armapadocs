@@ -17,6 +17,7 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [A primer for `assignGear`](mission_making/assigngear_primer/)
   - [A simpler `assignGear` approach](mission_making/simpler_assigngear)
   - [Fixing missions with spurious mod dependencies](mission_making/mission_depfix)
+  - [TFAR guide for mission making](mission_making/tfar)
 - [References](reference/)
   - [Su-25 armament overview](reference/su25_armaments/)
   - [TFAR 1.x function reference](reference/tfdocs/)

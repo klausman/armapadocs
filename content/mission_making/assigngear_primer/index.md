@@ -119,6 +119,9 @@ those scripts are the way to go. Note that they use the same classes as
 `assignGear` itself, so if you change `co` to something else, don't forget to
 tweak the radio script making sure he still gets a long range radio.
 
+Also note that with TFAR 1.x, things around radios have changed a bit.
+Fortunately, there is a [handy guide.](../tfar/)
+
 ## Further ideas
 
 ### Using ACE Arsenal exports

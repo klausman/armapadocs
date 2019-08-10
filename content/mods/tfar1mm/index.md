@@ -4,6 +4,11 @@ weight: 2
 ---
 ## General notes
 
+<span style="color: red;">*Note:* While this doc is still accurate, there is a
+[more pragmatic guide to using TFAR with
+assignGear](../../mission_making/tfar) (both classic and simplified). This doc
+is mostly explaingi how to change old missions to the new setup of TFAR 1.x.</span>
+
 On the whole, the changes for TFAR 1 fall into four categories:
 
 - Renamed things, usually var/functions renamed from `tf_whatever` to

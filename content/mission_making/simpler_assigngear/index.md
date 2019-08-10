@@ -83,55 +83,9 @@ the files themselves.**
 
 ## Radios and radio configuration
 
-**NOTE: This part is obsoleted by TFAR 1.x. I will update this section
-when I find some time to do so. In the meantime, refer to [the TFAR 1.x
-update doc](../../mods/tfar1mm/).**
-
-The radio initialization (what radios to give everyone, but also pre-set
-channels and crypto codes) is set in assorted files in `f\radios\tfr`.
-We are specifically interested in `fn_tfr_addRadios.sqf`. Around line
-15, there is this block:
-
-```
-switch ((side player)) do { //longrange, shortrange, rifradio
-    case (west): {
-      _radio1 = TF_defaultWestBackpack;
-      _radio2 = TF_defaultWestPersonalRadio;
-      _radio3 = TF_defaultWestRiflemanRadio;};
-    case (east): {
-      _radio1 = TF_defaultEastBackpack;
-      _radio2 = TF_defaultEastPersonalRadio;
-      _radio3 = TF_defaultEastRiflemanRadio;};
-    default {
-      _radio1 = TF_defaultGuerBackpack;
-      _radio2 = TF_defaultGuerPersonalRadio;
-      _radio3 = TF_defaultGuerRiflemanRadio;};
-};
-```
-
-We can change the right hand side of the `radio1`-`radio3` assignments
-to the classnames of whatever radios we want, for example, for BLUFOR,
-change the first block like so:
-
-```
-switch ((side player)) do { //longrange, shortrange, rifradio
-    case (west): {
-      _radio1 = "tfw_ilbe_a_wd";
-      _radio2 = "TFAR_anprc152";
-      _radio3 = "TFAR_rf7800str";};
-    case (east): {
-      _radio1 = TF_defaultEastBackpack;
-      _radio2 = TF_defaultEastPersonalRadio;
-      _radio3 = TF_defaultEastRiflemanRadio;};
-    default {
-      _radio1 = TF_defaultGuerBackpack;
-      _radio2 = TF_defaultGuerPersonalRadio;
-      _radio3 = TF_defaultGuerRiflemanRadio;};
-};
-```
-
-Note that the classnames have to be quoted, since they are classnames,
-whereas the `TF_default...` entries were variables.
+The radio setup has changed with 1.x, fortunately, there is [a handy
+guide](../tfar) about how it's used with both classic and simplified
+`assignGear`.
 
 ## Conclusion/Caveats
 
