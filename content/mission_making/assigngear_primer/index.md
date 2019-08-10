@@ -35,7 +35,7 @@ when only using the Eden editor. The problems with the vanilla approach are:
 The way `assignGear` tries to solve this is to have a whole load of variables
 that you assign class names to. For example this assignment:
 
-```cpp
+```
 _rifle = "hlc_rifle_416D165";
 _riflemag = "rhs_mag_30Rnd_556x45_Mk318_PMAG";
 _riflemag_tr = "rhs_mag_30Rnd_556x45_Mk318_PMAG";
@@ -45,7 +45,7 @@ means that the standard rifle is the HK 416 D16.5, and what the normal and
 tracer ammo types are by default. When then kitting out the rifleman, the
 variables are used:
 
-```cpp
+```
 // LOADOUT: RIFLEMAN
   case "r":
   {
@@ -66,7 +66,7 @@ what matches an in-game unit's init string to the loadout defined in the
 editor,* will get the rifleman loadout *if its init string uses the `r` class
 like so:*
 
-```cpp
+```
 ["r",this] call f_fnc_assignGear;
 ```
 
@@ -80,9 +80,9 @@ As a consequence, it doesn't really matter what those strings like `r` or
 `aar` actually are, and neither does `_rifle` or `_riflemag`. So you very well
 have something like this in your assignGear file:
 
-```cpp
-_ukdmrifle = `hlc_someclass`;
-_ukdmmags = `rhs_mag_whatever`;
+```
+_ukdmrifle = "hlc_someclass";
+_ukdmmags = "rhs_mag_whatever";
 
 // more stuff here
 
@@ -103,7 +103,7 @@ switch (_typeofUnit) do
 
 and then use it for a unit like so:
 
-```cpp
+```
 ["ukdm",this] call f_fnc_assignGear;
 ```
 
