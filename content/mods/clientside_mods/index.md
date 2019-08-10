@@ -61,7 +61,7 @@ missions!
   Presence](https://steamcommunity.com/sharedfiles/filedetails/?id=1326839989)
   Shows more info in your Discord status, like the mission you're
   playing.
-- [Selective
+- ~~[Selective
   Hearing](https://steamcommunity.com/sharedfiles/filedetails/?id=1240323575)
   Allows you to bind a key to lower the environmental sound volume (e.g.
-  in helis). I prefer this over the automatic volume adjustment in ACE3.
+  in helis)..~~ This can now be done with ACE3 itself.
