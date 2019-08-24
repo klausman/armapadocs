@@ -1,0 +1,160 @@
+Calendar Details:|YYYY-MM-DD HH:II|Arma 3| Mission Name|
+
+--------------------
+
+# Operation Example Template 
+
+--------------------
+
+#**INFO:** 
+
+--------------------
+
+Where? PA Arma 3 Server
+
+When? [19:00 UTC](https://www.google.com/#q=19:00+UTC+in+local+time)  
+
+
+[Join the steam group!](http://steamcommunity.com/groups/ProjectAwesome)
+
+Get the mods through our custom mod downloader, [Swifty](https://www.reddit.com/r/ProjectMilSim/wiki/quickstart#wiki_step_2_-_mods)
+
+When should I update the mods? As soon as you can, PM me with issues.
+
+Want more info? [LINK to our wiki](http://www.reddit.com/r/ProjectMilSim/wiki/arma)
+
+**Recommended reading: http://ttp3.dslyecxi.com/**
+
+If you have any issues with any of them, or anything really. Do not hesitate to contact me or any of the other helpers on teamspeak. Reddit PM is the easiest way to get a hold of me.
+
+Please take the time to watch our [Orientation Video](https://goo.gl/1u2y3L)
+
+----------------------
+
+----------------------
+
+# Briefing
+
+## Situation
+
+### Enemy Forces
+
+- Enemy's Composition, Disposition, Strength
+- Enemy's Capabilities & Limitations:(DRAW-DG) Defend, Reinforce, Attack,
+  Withdraw, Delay, Gas
+- Enemy's Most Likely Course Of Action (EMLCOA)
+- Enemy's Most Dangerous Course of Action
+
+### Friendly Forces
+
+- Higher's Mission & Intent
+- Adjacent Units
+- North/South/East/West
+- Same Echelon
+- Supporting
+
+### Attachments/Detachment
+
+### Civil/Terrain considerations
+
+##  Mission
+
+Who, What (Tactical Task), Where, When, and Why?
+
+### Execution
+
+### Commander's Intent
+
+- Center of Gravity
+- Critical Vulnerability
+- Exploitation Plan
+- Desired Endstate
+
+### Concept of the Operations
+
+- Scheme of Maneuver
+- Fire Support Plan
+
+## Administration/Logistics (Service Support in the Army version)
+
+### Administration - "Bad Guys & Bandages"
+
+- Enemy Prisoners of War ("EPW") & Casualty evacuation ("Casevac") Plans
+
+### Logistics - "Beans, Bullets, & Batteries:
+
+- Food, Ammunition, Supply, Communications, Pyrotechnics, etc.
+
+## Command/Signal (Command and Signal in the Army version)
+
+### Signal
+
+- Primary
+- Alternate
+- Contingency
+- Emergency
+
+### Command
+
+- Location of Key Leaders
+- Succession of Command
+
+----------------
+
+#**Slotting:**
+
+----------------
+
+Use this in your slotting comment:
+
+    IGN:  
+    SLOT: | Alpha | A1 | AR |
+
+
+----------------
+
+CO, squad leaders and special roles (All roles in bold letters) should join the teamspeak 30 minutes before the event starts for planning the mission.
+
+**If this is your first event with us we would also like to ask you to join 30 minutes early for a quick introduction to PA.**
+
+----------------
+
+*ROLES*
+
+<add equipment explanations and role descriptions for unusual roles here.>
+
+
+----------------
+
+**Slots**
+----------------
+
+This list is not guaranteed to be up to date! Do a quick look through the comments to make sure your slot hasn't already been claimed.
+
+You need to have played at least three events with us for all leadership and special roles like pilots or vehicle crew.
+
+Callsign/ Role          | IGN | 
+----|----|----|----|
+**Commanding Officer**  ||
+                    ||
+**ALPHA Leader**        ||
+FT1 Grenadier           ||
+FT1 Rifleman AT         ||
+FT1 Demolitions         ||
+FT2 Grenadier           ||
+FT2 Rifleman AT         ||
+FT2 Medic               ||
+FT2 MG              ||
+                    ||
+**BRAVO Leader**        ||
+FT1 Grenadier           ||
+FT1 Rifleman AT         ||
+FT1 Demolitions         ||
+FT2 Grenadier           ||
+FT2 Rifleman AT         ||
+FT2 Medic               ||
+FT2 MG              ||
+
+
+Reserve: 
+----------------------
