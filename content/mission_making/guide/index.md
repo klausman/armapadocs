@@ -360,9 +360,13 @@ Note if you wish to use scripts from `F3_PA-examplescripts.Altis,` you must
 also copy the folders placed in the `F3_PA-examplescripts` mission folder, and
 copy `description.ext` and `init.sqf` from `F3\_PA-examplescripts.Altis`
 
-Murk spawn script guide from Hamster:
+Murk spawn script guide from klausman:
 
-[https://docs.google.com/document/d/1YaUtMH4ZDS3pBMPPe\_QmW5fqyqGq3sC\_xXAZX3pFJzc/view](https://docs.google.com/document/d/1YaUtMH4ZDS3pBMPPe_QmW5fqyqGq3sC_xXAZX3pFJzc/view)
+[Murk Howto](../murk/)
+
+And another one from NyteMyre:
+
+https://docs.google.com/document/d/1ofsbiG1mL7bdh1vWbIYE3BzGDZbkhm4MSTzWjtkCuv8/edit
 
 ## Testing your mission
 
