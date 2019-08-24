@@ -1,5 +1,6 @@
 ---
 title: Reddit post template
+weight: 8
 ---
 
 Here is the reddit post template for missions with PA:
@@ -36,7 +37,7 @@ Note that this is a mission that requires APEX *for all slots*, i.e. it is
 most likely to be on Tanoa. For Livonia you'd use `[ARMA 3: Contact]`, for WW2
 missions `[ARMA 3: WW2]` and so on. If the mission has the APEX/Contact/...
 requirement only for selected slots, this is *not necessary.* You would still
-have to annotate the slots (see below).
+have to annotate the slots (see below) in the post itself.
 
 ## The template, in detail
 
@@ -60,16 +61,16 @@ Prefixed with one `#`, the title/name of the mission.
 
 ### Standard header
 
-This par rarely changes between missions, besides making sure the `When?` line
+This part rarely changes between missions, besides making sure the `When?` line
 has the right time when DST changes roll around. When changing it, make sure
 to change both the link description *and* the link it refers to.
 
 ### Main mission description
 
-Under the heading "Briefing, You'll find the actual SMEAC briefing. There are
+Under the heading `Briefing`, You'll find the actual SMEAC briefing. There are
 *lot* of items there, and often, whole sections are irrelevant to the mission
 (and our play style), so feel free to drop entire sections. Mostly, they're
-there so the mission maker doesn't forget information.
+there so the mission maker doesn't forget to include *relevant* information.
 
 There are a few sections that are non-obvious:
 
@@ -124,10 +125,11 @@ FT1 Rifleman AT         ||M4/M136|
 ```
 
 Notes:
+
 - A line in the table must **never** contain leading spaces, otherwise, the
-  whole table will break.
-- Roles with the "must have played three times with us" should be in bold
-  (using `**`).
+  whole table will break. There should also never be entirely empty lines.
+- Roles with the "must have played three times with us" requirement should be
+  in bold (using `**`).
 - The `Equipment` and `Notes` columns aren't strictly necessary, but it's nice
   if players know what to expect.
 - The `Notes` column should indicate whether a role needs a particular DLC,

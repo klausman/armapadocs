@@ -1,5 +1,6 @@
 ---
 title: TFAR guide for mission making
+weight: 7
 ---
 
 ## Introduction

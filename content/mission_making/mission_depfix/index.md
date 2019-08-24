@@ -1,6 +1,6 @@
 ---
 title: Fixing spurious mission dependencies
-weight: 3
+weight: 6
 ---
 ### The basic problem
 

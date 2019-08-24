@@ -17,7 +17,7 @@ When? [19:00 UTC](https://www.google.com/#q=19:00+UTC+in+local+time)
 
 [Join the steam group!](http://steamcommunity.com/groups/ProjectAwesome)
 
-Get the mods through our custom mod downloader, [Swifty](https://www.reddit.com/r/ProjectMilSim/wiki/quickstart#wiki_step_2_-_mods)
+Get the mods through our custom mod downloader, [Swifty](https://swifty.projectawesome.net/docs/swifty/swifty3/)
 
 When should I update the mods? As soon as you can, PM me with issues.
 
@@ -25,7 +25,9 @@ Want more info? [LINK to our wiki](http://www.reddit.com/r/ProjectMilSim/wiki/ar
 
 **Recommended reading: http://ttp3.dslyecxi.com/**
 
-If you have any issues with any of them, or anything really. Do not hesitate to contact me or any of the other helpers on teamspeak. Reddit PM is the easiest way to get a hold of me.
+If you have any issues with any of them, or anything really. Do not hesitate
+to contact the event host or any of the helpers on teamspeak or Discord. DM on
+Discord and Reddit PM are the easiest way to get a hold of the event host.
 
 Please take the time to watch our [Orientation Video](https://goo.gl/1u2y3L)
 
@@ -113,9 +115,11 @@ Use this in your slotting comment:
 
 ----------------
 
-CO, squad leaders and special roles (All roles in bold letters) should join the teamspeak 30 minutes before the event starts for planning the mission.
+CO, squad leaders and special roles (all roles in bold letters) should join
+the teamspeak 30 minutes before the event starts for planning the mission.
 
-**If this is your first event with us we would also like to ask you to join 30 minutes early for a quick introduction to PA.**
+**If this is your first event with us we would also like to ask you to join 30
+minutes early for a quick introduction to PA.**
 
 ----------------
 
@@ -123,38 +127,38 @@ CO, squad leaders and special roles (All roles in bold letters) should join the 
 
 <add equipment explanations and role descriptions for unusual roles here.>
 
-
 ----------------
 
 **Slots**
 ----------------
 
-This list is not guaranteed to be up to date! Do a quick look through the comments to make sure your slot hasn't already been claimed.
+This list is not guaranteed to be up to date! Do a quick look through the
+comments to make sure your slot hasn't already been claimed.
 
-You need to have played at least three events with us for all leadership and special roles like pilots or vehicle crew.
+You need to have played at least three events with us for all leadership and
+special roles like pilots or vehicle crew.
 
-Callsign/ Role          | IGN | 
-----|----|----|----|
-**Commanding Officer**  ||
-                    ||
-**ALPHA Leader**        ||
-FT1 Grenadier           ||
-FT1 Rifleman AT         ||
-FT1 Demolitions         ||
-FT2 Grenadier           ||
-FT2 Rifleman AT         ||
-FT2 Medic               ||
-FT2 MG              ||
-                    ||
-**BRAVO Leader**        ||
-FT1 Grenadier           ||
-FT1 Rifleman AT         ||
-FT1 Demolitions         ||
-FT2 Grenadier           ||
-FT2 Rifleman AT         ||
-FT2 Medic               ||
-FT2 MG              ||
-
+Callsign/ Role          |IGN |Equipment|Notes|
+------------------------|----|---------|-----|
+**Commanding Officer**||||
+||||
+**ALPHA Leader** ||||
+FT1 Grenadier    ||||
+FT1 Rifleman AT  ||||
+FT1 Demolitions  ||||
+FT2 Grenadier    ||||
+FT2 Rifleman AT  ||||
+FT2 Medic        ||||
+FT2 MG           ||||
+||||
+**BRAVO Leader** ||||
+FT1 Grenadier    ||||
+FT1 Rifleman AT  ||||
+FT1 Demolitions  ||||
+FT2 Grenadier    ||||
+FT2 Rifleman AT  ||||
+FT2 Medic        ||||
+FT2 MG           ||||
 
 Reserve: 
 ----------------------

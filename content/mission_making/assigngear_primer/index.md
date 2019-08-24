@@ -1,6 +1,6 @@
 ---
 title: AssignGear Primer
-weight: 1
+weight: 4
 ---
 ## Introduction
 

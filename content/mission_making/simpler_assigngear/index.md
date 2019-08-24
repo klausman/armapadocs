@@ -1,6 +1,6 @@
 ---
 title: A simpler assignGear approach
-weight: 2
+weight: 5
 ---
 ## Introduction
 
