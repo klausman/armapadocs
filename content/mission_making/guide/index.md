@@ -366,7 +366,7 @@ Murk spawn script guide from klausman:
 
 And another one from NyteMyre:
 
-https://docs.google.com/document/d/1ofsbiG1mL7bdh1vWbIYE3BzGDZbkhm4MSTzWjtkCuv8/edit
+https://docs.google.com/document/d/1ofsbiG1mL7bdh1vWbIYE3BzGDZbkhm4MSTzWjtkCuv8/view
 
 ## Testing your mission
 
