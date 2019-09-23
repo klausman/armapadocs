@@ -62,11 +62,11 @@ The so-called Event modpack (also called the Event repo) is likely the first
 modpack you want to download. It's definitely on the bigger side (~47G), so
 this will take some time.
 
-The modpack URL for the Event repo is
-`https://swifty.projectawesome.net/event3/`. So to add it to Swifty, click `Add
-Repository` at the bottom of the main window, fill in the URL and click
-`Import`. To add the WW2 repo, use the URL
-`https://swifty.projectawesome.net/ww6/` (trust me, the URL makes sense).
+The URLs for the modpacks are:
+
+- Event: `https://swifty.projectawesome.net/docs/swifty/swifty3/`
+- WW2: `https://swifty.projectawesome.net/docs/swifty/ww6/`
+- Test Repo: `https://swifty.projectawesome.net/docs/swifty/swifty3/`
 
 The next screen should look roughly like this:
 
