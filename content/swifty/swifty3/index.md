@@ -64,9 +64,9 @@ this will take some time.
 
 The URLs for the modpacks are:
 
-- Event: `https://swifty.projectawesome.net/docs/swifty/swifty3/`
-- WW2: `https://swifty.projectawesome.net/docs/swifty/ww6/`
-- Test Repo: `https://swifty.projectawesome.net/docs/swifty/test/`
+- Event: `https://swifty.projectawesome.net/event3/`
+- WW2: `https://swifty.projectawesome.net/ww6/`
+- Test Repo: `https://swifty.projectawesome.net/test/`
 
 The next screen should look roughly like this:
 
