@@ -47,8 +47,6 @@ same drive as the directories to store the mods. Note that the mods don't need
 to be on the same drive as Arma, and that you can freely pick their storage
 directories per-pack when we later add the individual modpacks.
 
-TODO: Add'l mod dirs
-
 The concurrent download slider should typically set to 5 or so, higher if you
 have a fast internet connection and an SSD.
 
@@ -95,29 +93,30 @@ The other tabs (`Credentials`, `Addons` and `External Addons`) don't need to
 be touched for now.
 
 Once you close the `Editing...` dialog, you will have a new repo. If you
-disabled `Autocheck`, you can click on the new tile and it will do a manual
-check. This will prepare some local files (this can take a minute) and then
-tell you you need to update the pack.
+disabled `Autocheck`, you can click on the new repo and then the `Check for
+updates` button and it will do a manual check. This will prepare some local
+files (this can take a minute) and then tell you you need to update the pack.
 
 <img src="swifty3_update_1.png">
 
-If you click on the tile again, you will seen information window like this,
-where you can see what files changed per-mod:
+The update dialog shows what things need to be updated and how much Swifty
+expects to download:
 
 <img src="swifty3_update_2.png">
-<img src="swifty3_update_3.png">
 
-Click `Update` and off it goes:
+Click `Download` and off it goes:
 
 <img src="swifty3_dling.png">
 
 After everything is downloaded, Swifty will do some patching (this again take
-a minute or so), and you're good to go. Note how the background image of the
-tile has changed to the PA logo. If you now click `Play`, Swifty will load
-Arma with the modpack and directly connect to the server. If you want to do
-mission editing, or play around in the Virtual Arsenal, you can click the
-dropdown arrow on the right and click `Launch` instead, which will just load
-arma with the modpack, but not connect to the server.
+a minute or so), and you're good to go. Note how the `Check for Updates` button
+has changed to `Join`.  If it hasn't, close Swifty, open it again and run
+another check; this may need 2-3 repeats due to a known bug.
+
+If you now click `Join`, Swifty will load Arma with the modpack and directly
+connect to the server. If you want to do mission editing, or play around in the
+Virtual Arsenal, you can `Launch` instead, which will just load arma with the
+modpack, but not connect to the server.
 
 ### Possible errors
 
@@ -153,7 +152,6 @@ NOTE: When editing missions, it can happen that these addtional mods create
 spurious dependencies (at least JSRS and Blastcore are know to do so). The
 easiest way to handle this is to have two separate tiles in Swifty's menu, one
 for playing one for editing. You can of course use the same mod dir, so you
-don't have duplicate mods. For example, my Swifty 3 main window looks like
-this:
+don't have duplicate mods. 
 
 <img src="swifty3_main_full.png">
