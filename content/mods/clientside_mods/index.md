@@ -18,11 +18,11 @@ how to load external addons.
   Enhanced:](https://steamcommunity.com/sharedfiles/filedetails/?id=623475643)
   Many, many improvements for 3DEN, If you only install one mod for
   editing missions, it should be this one
-- [dzn Zeus Search
+- ~~[dzn Zeus Search
   Patch:](https://steamcommunity.com/sharedfiles/filedetails/?id=1557429895)
   Instead of doing the search-as-you-type thing, this only searches
   after you hit enter, which makes the entire experience much nicer,
-  especially in the larger categories.
+  especially in the larger categories.~~ Achilles now does this natively.
 - [ZEI - Zeus and Eden
   Interiors:](https://steamcommunity.com/sharedfiles/filedetails/?id=1251859358)
   Autofill buildings and objects like tables and shelves with random
