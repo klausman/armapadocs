@@ -57,6 +57,13 @@ missions!
   Lower](https://steamcommunity.com/sharedfiles/filedetails/?id=1612623122)
   Automatically lowers your weapon in certain situations, helping to
   conserve stamina. Can bit a bit annoying at times, YMMV.
+- [Turret
+  Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=1623498241)
+  Improves the capabilities of turrets on both vanilla and addon UAVs, Planes &
+  Helicopters. Including adding markers on the spot the turret looks at,
+  displaying grid coords of the current target, slewing the turrent to map
+  locations or grid references, measuring distance and bearing between two
+  points and assorted other quality-of-life improvements. 
 - [Discord Rich
   Presence](https://steamcommunity.com/sharedfiles/filedetails/?id=1326839989)
   Shows more info in your Discord status, like the mission you're
@@ -65,3 +72,4 @@ missions!
   Hearing](https://steamcommunity.com/sharedfiles/filedetails/?id=1240323575)
   Allows you to bind a key to lower the environmental sound volume (e.g.
   in helis)..~~ This can now be done with ACE3 itself.
+
