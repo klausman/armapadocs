@@ -143,6 +143,10 @@ add the directory with the additional mods in the main settings:
 
 <img src="swifty3_addl_dirs.png">
 
+**NOTE:** If you just now subscribed to mods via the Steam Workshop, you may
+have to open the Arma 3 launcher once to force downloading of the mods. At any
+rate, it's a good idea to open the launcher and see what mods you have.
+
 You can then tick the external addons in the settings of an individual
 modpack:
 
