@@ -27,6 +27,7 @@ how to load external addons.
   Interiors:](https://steamcommunity.com/sharedfiles/filedetails/?id=1251859358)
   Autofill buildings and objects like tables and shelves with random
   clutter.
+- [Zeus Enhanced (ZEN)](https://steamcommunity.com/sharedfiles/filedetails/?id=1779063631) An alternative to Achilles that has higher code quality/documentation and is actively maintained. **Do not use this and Achilles at the same time.**
 - Composition packs:
   - [Custom Zeus Compositions](https://steamcommunity.com/sharedfiles/filedetails/?id=290561080)
   - [Darth Potato's Building Compositions](https://steamcommunity.com/sharedfiles/filedetails/?id=1233323201)
