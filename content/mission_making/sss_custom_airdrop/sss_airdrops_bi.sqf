@@ -12,10 +12,7 @@ _boxes = _this select 2;
 
 _boxdef = _boxes select _boxidx;
 
-_mags = _boxdef select 4;
-_weaps = _boxdef select 5;
-_items = _boxdef select 6;
-_packs = _boxdef select 7;
+_stuff = _boxdef select 4;
 
 [format ["Intializing box %1 (type %2, %3)", _box, _boxidx, _boxdef], "SSS CADS", [false, true, false]] call CBA_fnc_debug;
 
@@ -24,10 +21,27 @@ clearWeaponCargoGlobal   _box;
 clearMagazineCargoGlobal _box;
 clearBackpackCargoGlobal _box;
 
-{_box addMagazineCargoGlobal _x;} foreach _mags;
-  {_box addWeaponCargoGlobal _x;} foreach _weaps;
-    {_box addItemCargoGlobal _x;} foreach _items;
-{_box addBackpackCargoGlobal _x;} foreach _packs;
+{
+  _thing = _x # 0;
+  _count = _x # 1;
+  private _isBackpack = [_thing] call ace_backpacks_fnc_isBackpack;
+  private _itemType = ([_thing] call ace_common_fnc_getItemType) select 0;
+
+  switch (true) do {
+      case (_isBackpack): {
+	  _object addBackpackCargoGlobal [_thing, _count];
+      };
+      case (_itemType == "weapon"): {
+	  _object addWeaponCargoGlobal [_thing, _count];
+      };
+      case (_itemType == "magazine"): {
+	  _object addMagazineCargoGlobal [_thing, _count];
+      };
+      default {
+	  _object addItemCargoGlobal [_thing, _count]; //default "item"
+      };
+  };
+} foreach _stuff;
 
 _smokes =  _boxdef select 3;
 if (count _smokes > 0) then {

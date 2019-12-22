@@ -42,18 +42,22 @@ The way to use the custom airdrops script is to put the following line in the
 
 Open `pa\sss_airdrops.sqf` in the editor of your choice and find this section:
 
-```
+```cpp
 // BOX DEFINITIONS START
 
 // FORMAT
 // This should be an array of box definitions. Each Box definition has these
 // components:
 //
-// ["In-game Label", "Box Classname", "Icon", ["Smoke or Chemlight", ...],
-//  [["some mag class", N], ["some other mag class", N], ...],
-//  [["some weapon class", N], ["more weapons", N], ...],
-//  [["some item class", N], ["more items", N], ...],
-//  [["some backpack class, N], ["more backpacks", N], ...]
+// [
+//  "In-game Label",
+//  "Box Classname",
+//  "Icon",
+//  ["Smoke", "Chemlight"],
+//  [
+//   ["some object class", N],
+//   ["some other object class", N]
+//  ]
 // ]
 //
 // Label is what the players see in the logistics menu
@@ -62,27 +66,29 @@ Open `pa\sss_airdrops.sqf` in the editor of your choice and find this section:
 // Icon is used in the logistics menu and optional
 // The Smoke or Chemlight list is a list of throwables that will be
 //   spawned once the box hits the ground. Leave as [] for no markers.
-// The next four lines set the contents of the box. Note these are lists
-//   since Magazines, Weapons, Items and Backpacks all need different code
-//   to add them to the box.
-// N is the count of the particular object to add to the box.
+// The next line sets the contents of the box. Note these are arrays of
+//   classnames and numbers, setting the object and count of them (N).
 //
 // Example (two boxes of the same type, but with different contents,
 // with the second getting a orange smoke shell on touchdown):
 _boxes = [
   ["Rifle Ammo", "Box_NATO_Ammo_F", "", [],
-   [["hlc_30rnd_556x45_EPR_G36", 50]],
-   [],
-   [],
-   []
+   [
+    ["hlc_30rnd_556x45_EPR_G36", 50],
+    ["U_B_CombatUniform_mcam", 10]
+   ]
   ],
   ["AR Ammo", "B_supplyCrate_F", "", ["SmokeShellOrange"],
-   [["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch", 10]],
-   [["hlc_lmg_mk46mod1", 2]],
-   [["ACE_fieldDressing", 100], ["ACE_bloodIV_500", 30]],
-   []
+   [
+    ["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch", 10],
+    ["hlc_lmg_mk46mod1", 2],
+    ["ACE_fieldDressing", 100],
+    ["ACE_bloodIV_500", 30]
+   ]
   ]
 ];
+
+// BOX DEFINITIONS END -- no need to edit below this line
 ```
 
 The comments explain pretty much all you need to know. I'd like to draw special
