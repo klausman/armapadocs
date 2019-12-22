@@ -19,7 +19,7 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [Murk Howto](mission_making/murk)
   - [A primer for `assignGear`](mission_making/assigngear_primer/)
   - [A simpler `assignGear` approach](mission_making/simpler_assigngear)
-  - [SSS Supply boxes customizing script](mission_making/sss_custom_airdrop/)
+  - [Custom airdrops for Simplex Support Services](mission_making/sss_custom_airdrop/)
   - [Fixing missions with spurious mod dependencies](mission_making/mission_depfix)
   - [TFAR guide for mission making](mission_making/tfar)
 - [References](reference/)

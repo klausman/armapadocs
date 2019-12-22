@@ -8,6 +8,6 @@ weight: 3
 - [Mission making checklist](mission_making/checklist)
 - [A primer for `assignGear`](assigngear_primer/)
 - [A simpler approach to using `assignGear`](simpler_assigngear/)
-- [SSS Supply boxes customizing script](sss_custom_airdrop/)
+- [Custom airdrops for Simplex Support Services](sss_custom_airdrop/)
 - [Fixing missions with spurious mod dependencies](mission_depfix/)
 - [Template and Guide](reddit_post) for the Reddit signup post
