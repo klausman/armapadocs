@@ -91,14 +91,6 @@ _boxes = [
 // BOX DEFINITIONS END -- no need to edit below this line
 ```
 
-The comments explain pretty much all you need to know. I'd like to draw special
-attention to the four lines setting up the actual box (or vehicle) contents.
-Since there is no generic way to add an object to a box in Arma, the script
-needs to use four different kinds of calls to do so, one each for Magazines,
-Weapons, Items and Backpacks. Clothing and the like counts as items. **As a
-result it is vitally important that objects are put in the right sublist,
-otherwise, they will not be added to the box correctly.**
-
 ### A note on chemlights and smoke grenades
 
 There is a non-obvious aspect to the way the script uses chemlights and smoke
