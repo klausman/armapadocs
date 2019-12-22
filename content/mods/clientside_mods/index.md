@@ -1,6 +1,6 @@
 ---
 title: Client-side mods
-weight: 3
+weight: 2
 ---
 
 Here's a list of client-side addons that may prove useful. They are entirely

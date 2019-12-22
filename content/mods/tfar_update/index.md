@@ -1,6 +1,6 @@
 ---
 title: Updating TFAR 0.9 to 1.0 (Players)
-weight: 1
+weight: 3
 ---
 ## Disabling TFAR 0.9 and TFAR Animations
 
