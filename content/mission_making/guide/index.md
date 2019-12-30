@@ -392,3 +392,22 @@ Ask volunteer(s) to help test.
 
 We also have [a checklist](../checklist/) of items that we have found are easily
 overlooked/untested, that then break the mission at event time.
+
+## Getting a timeslot
+
+To get a timeslot for your mission, we recommend sending a DM to Helperbot, and
+briefly outlining your mission (which repo (WW2/Event/Test), name, era,
+factions, player count). The Event Mods will then get back to you and figure
+out a date to host your mission. Note that they *will* ask if you have tested
+the mission on-server with others.
+
+There are a few considerations for missions:
+
+- Typically, new mission makers host on Friday or Saturday for a few times
+  before getting a Sunday slot.
+- Small missions typically happen on Fridays. Small here means either short
+  time-wise (<1.5h or so) or with few player slots (<20).
+- Recurring missions like Antistasi, or longer series of missions, like Two
+  Sierra, also happen on Fridays, to not crowd out the bigger event missions.
+- We typically don't reserve dates further than two weeks into the future.
+

@@ -3,7 +3,7 @@ title: Mission testing checklist
 weight: 2
 ---
 
-# Technical
+## Technical
 
 - Make sure you have implemented the framework into your mission correctly and
   that JIP and (if desired) the spectate screen are working as intended.
@@ -46,7 +46,7 @@ weight: 2
   - This is also true the other way around, at event time there are a lot more
     active entities (players) in the mission, plan and accommodate for that.
 
-# Player slots, loadouts and equipment
+## Player slots, loadouts and equipment
 
 - Make sure there are enough slots for all the players (Potentially setting up
   at least Charlie squad for slotting). It's a good idea to have one more squad
@@ -63,7 +63,7 @@ weight: 2
   - If you add new squads because of a lot of people signing up for the event
     your mission is played in, be sure to also add extra transportation.
 
-# Balancing and AI
+## Balancing and AI
 
 - Check triggers and enemy spawns.
   - Check all the triggers and spawns!
