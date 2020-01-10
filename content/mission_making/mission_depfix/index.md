@@ -33,6 +33,9 @@ name, just so you can still look at the old mission, just in case.
 If the old mission was using external files (e.g. our framework), don't forget
 to copy them over!
 
+Also, the mission-level settings, specifically night/day time and weather, need
+to be redone.
+
 ### Caveats
 
 Obviously, if the deps weren't caused by JSRS or similar mods, there are now
