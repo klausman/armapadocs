@@ -7,7 +7,8 @@ The base game Leopard 2 (2SG aka "Revolution") has only flat textures which
 look kinda boring. So here is a set of textures (Woodland and Desert) to make
 it look more spiffy.
 
-To use, add this code into a tank's init:
+To use, put the relevant files in your mission folder and add this code into a
+tank's init:
 
 Desert:
 
@@ -26,6 +27,9 @@ this setObjectTexture[0, "leo_dsrt_01.paa"];
 this setObjectTexture[1, "leo_dsrt_02.paa"];
 this setObjectTexture[2, "leo_dsrt_rcws.paa"];
 ```
+
+You could of course also put the files in a subfolder and change the file names
+accordingly.
 
 Note that the optional camo nets are _not_ retextured.
 
