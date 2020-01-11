@@ -22,6 +22,7 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [Custom airdrops for Simplex Support Services](mission_making/sss_custom_airdrop/)
   - [Fixing missions with spurious mod dependencies](mission_making/mission_depfix)
   - [TFAR guide for mission making](mission_making/tfar)
+  - [Leopard 2 camo retextures](mission_making/leo2_retex/)
 - [References](reference/)
   - [Su-25 armament overview](reference/su25_armaments/)
   - [TFAR 1.x function reference](reference/tfdocs/)

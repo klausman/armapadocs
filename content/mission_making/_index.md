@@ -11,3 +11,4 @@ weight: 3
 - [Custom airdrops for Simplex Support Services](sss_custom_airdrop/)
 - [Fixing missions with spurious mod dependencies](mission_depfix/)
 - [Template and Guide](reddit_post) for the Reddit signup post
+- [Leopard 2 camo retextures](leo2_retex/)
