@@ -22,3 +22,12 @@ this setObjectTexture[1, "leo_dsrt_02.paa"];
 this setObjectTexture[2, "leo_dsrt_rcws.paa"];
 ```
 
+Flecktarn:
+
+```
+this setVariable ["BIS_enableRandomization", false];
+this setObjectTexture[0, "leo_fleck_01.jpg"];
+this setObjectTexture[1, "leo_fleck_02.jpg"];
+this setObjectTexture[2, "leo_fleck_rcws.jpg"];
+```
+
