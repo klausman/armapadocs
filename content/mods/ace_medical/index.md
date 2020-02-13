@@ -46,10 +46,10 @@ usefulness of both epinephrine and morphine.
 Also, both epinephrine and morphine work differently. Epinephrine is no longer
 the "pop one and you're up" magic stick. Instead, it bumps up the heart rate
 for ten seconds, and increases the frequency of the wakeup checks (they
-normally only happen every 15 seconds). For patients in cardiac arrest, it is
-strongly recommended to perform CPR until you get a pulse, then administer
-epinephrine if you can. If you can't, keep doing CPR. Regularly check
-the pulse of the patient while they are unconscious.
+normally only happen every 15 seconds). For patients in cardiac arrest perform
+CPR until you get a pulse, then administer epinephrine if you can. If you
+can't, keep doing CPR. Regularly check the pulse of the patient while they are
+unconscious.
 
 Morphine has also lost a lot of magic. Its effects happen over a much longer
 time (typically 10-30 minutes). Thus it makes almost no sense to use several of
