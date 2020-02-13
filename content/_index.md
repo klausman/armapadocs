@@ -9,7 +9,7 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [Switching from Swifty 2.x to 3.x](swifty/swifty223/)
   - [Swifty Troubleshooting](swifty/swifty_trblsht/)
 - [Mods](mods/)
-  - [ACE Medical Guide](ace_medical/)
+  - [ACE Medical Guide](mods/ace_medical/)
   - [TFAR 1.x for players](mods/tfar_update/)
   - [TFAR 1.x for mission makers](mods/tfar1mm/)
   - [Useful Client-side mods](mods/clientside_mods/)
