@@ -48,7 +48,7 @@ the "pop one and you're up" magic stick. Instead, it bumps up the heart rate
 for ten seconds, and increases the frequency of the wakeup checks (they
 normally only happen every 15 seconds). For patients in cardiac arrest, it is
 strongly recommended to perform CPR until you get a pulse, then administer
-epinephrine (or wait and hope the next wakeup check succeeds). Regularly check
+epinephrine if you can. If you can't, keep doing CPR. Regularly check
 the pulse of the patient while they are unconscious.
 
 Morphine has also lost a lot of magic. Its effects happen over a much longer
@@ -87,7 +87,7 @@ The main differences between a medic and a grunt are that the medic has more
 actions available:
 
 - Checking heart rate and blood pressure will give you exact numbers. The
-  normal/healthy values for those are 80 (heart rate and) 120/90 (blood
+  normal/healthy values for those are 80 (heart rate and) 120/80 (blood
   pressure).
 - You can administer epinephrine
 - You can give IVs, including to yourself
