@@ -43,15 +43,16 @@ and thus make death by bleedout much less likely. They also make getting
 someone back up easier, as high blood loss affects wakeup chances and the
 usefulness of both epinephrine and morphine.
 
-Also, both epinephrine and morphine work differently. Epinephrine is no
-longer the "pop one and you're up" magic stick. Instead, it bumps up the heart
-rate for ten seconds, increasing wakeup chance. But it will do basically
-nothing if the patient is in cardiac arrest and CPR is not administered at the
-same time.
+Also, both epinephrine and morphine work differently. Epinephrine is no longer
+the "pop one and you're up" magic stick. Instead, it bumps up the heart rate
+for ten seconds, increasing wakeup chance. It also increases the frequency of
+the wakeup checks. But it will do basically nothing if the patient is in
+cardiac arrest and CPR is not administered at the same time.
 
 Morphine has also lost a lot of magic. Its effects happen over a much longer
-time (typically 10-30 minutes). Thus it makes almost no sense to use several
-of them at the same time, unless you're about to pass out from the pain.
+time (typically 10-30 minutes). Thus it makes almost no sense to use several of
+them at the same time, unless you're about to pass out from the pain. There is
+usually no point in giving morphine to an unconscious patient.
 
 ## Non-medic players
 
@@ -75,6 +76,8 @@ For treating somebody else:
   obvious reasons. If there isn't any, perform CPR. Repeat until the patient
   has a stable pulse (recheck frequently if they stay unconscious!) or a medic
   arrives and then follow their instructions.
+
+Again, there is usually no point in giving morphine to an unconscious patient.
 
 ## Medics
 
