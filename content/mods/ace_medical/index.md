@@ -47,8 +47,9 @@ Also, both epinephrine and morphine work differently. Epinephrine is no longer
 the "pop one and you're up" magic stick. Instead, it bumps up the heart rate
 for ten seconds, and increases the frequency of the wakeup checks (they
 normally only happen every 15 seconds). For patients in cardiac arrest, it is
-strongly recommended to perform CPR, immediately administer epinephrine, and
-then do more CPR.
+strongly recommended to perform CPR until you get a pulse, then administer
+epinephrine (or wait and hope the next wakeup check succeeds). Regularly check
+the pulse of the patient while they are unconscious.
 
 Morphine has also lost a lot of magic. Its effects happen over a much longer
 time (typically 10-30 minutes). Thus it makes almost no sense to use several of
@@ -74,7 +75,7 @@ For treating somebody else:
 - Bandage head and torso until no longer bleeding
 - Bandage limbs until no longer bleeding, remove tourniquets
 - Check pulse. Note that you will never find a pulse on a tourniquet-ed limb for
-  obvious reasons. If there isn't any, perform CPR. Repeat until the patient
+  obvious reasons. If there no pulse, perform CPR. Repeat until the patient
   has a stable pulse (recheck frequently if they stay unconscious!) or a medic
   arrives and then follow their instructions.
 
