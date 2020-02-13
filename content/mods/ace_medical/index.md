@@ -47,7 +47,8 @@ Also, both epinephrine and morphine work differently. Epinephrine is no longer
 the "pop one and you're up" magic stick. Instead, it bumps up the heart rate
 for ten seconds, and increases the frequency of the wakeup checks (they
 normally only happen every 15 seconds). For patients in cardiac arrest, it is
-strongly recommended to apply epinephrine and CPR at the same time.
+strongly recommended to perform CPR, immediately administer epinephrine, and
+then do more CPR.
 
 Morphine has also lost a lot of magic. Its effects happen over a much longer
 time (typically 10-30 minutes). Thus it makes almost no sense to use several of
