@@ -87,7 +87,7 @@ The main differences between a medic and a grunt are that the medic has more
 actions available:
 
 - Checking heart rate and blood pressure will give you exact numbers. The
-  normal/healthy values for those are 80 (heart rate and) 120/80 (blood
+  normal/healthy values for those are 80 (heart rate) and 120/80 (blood
   pressure).
 - You can administer epinephrine
 - You can give IVs, including to yourself
