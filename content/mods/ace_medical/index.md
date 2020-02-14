@@ -4,9 +4,9 @@ weight: 1
 ---
 ## Introduction and Overview
 
-With the latest release of ACE (v3.13, released 2020-01-01), the medical
-system of the medical system has changed drastically. From a code point of
-view, it was a rewrite from scratch.
+With the latest release of ACE (v3.13, released 2020-01-01), the medical system
+has changed drastically. From a code point of view, it was a rewrite from
+scratch.
 
 The main motivation of the ACE Devs was to clean up the internal states ACE
 would track, as well as getting rid of the distinction of Basic and Advanced
