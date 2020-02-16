@@ -50,21 +50,20 @@ directories per-pack when we later add the individual modpacks.
 The concurrent download slider should typically set to 5 or so, higher if you
 have a fast internet connection and an SSD.
 
-WARNING: There is a cleanup section in Swifty. At the time of this writing
-(June 2019), the functionality there is buggy in that it may delete mods that
-you actually need, so we advise to not use it for the time being.
+**Important:** I recommend closing and reopening Swifty if you have changed
+settings. Especially the temporary directory setting seems to sometimes only
+apply after a restart of Swifty.
 
 ## Adding the modpack(s)
 
 The so-called Event modpack (also called the Event repo) is likely the first
-modpack you want to download. It's definitely on the bigger side (~47G), so
+modpack you want to download. It's definitely on the bigger side (>50G), so
 this will take some time.
 
 The URLs for the modpacks are:
 
-- Event: `https://swifty.projectawesome.net/event3/`
-- WW2: `https://swifty.projectawesome.net/ww6/`
-- Test Repo: `https://swifty.projectawesome.net/test/`
+- Event: `https://swifty.projectawesome.net/event/`
+- WW2: `https://swifty.projectawesome.net/ww2/`
 
 The next screen should look roughly like this:
 
@@ -85,9 +84,9 @@ share this directory between different modpacks/repos. They tend to stomp on
 each other's file, causing frequent re-downloads and other stranger issues.
 
 I typically recommend to disable `Autocheck on startup`, since that operation
-can take a long time, and we don't have updates all that frequently.
-Typically, modpack updates will be announced on Discord and Reddit, so you can
-always manually sync when it happens.
+can take a long time, and we don't have updates all that frequently. Typically,
+modpack updates will be announced on Discord, so you can always manually sync
+when it happens.
 
 The other tabs (`Credentials`, `Addons` and `External Addons`) don't need to
 be touched for now.
@@ -108,10 +107,12 @@ Click `Download` and off it goes:
 
 <img src="swifty3_dling.png">
 
-After everything is downloaded, Swifty will do some patching (this again take
-a minute or so), and you're good to go. Note how the `Check for Updates` button
-has changed to `Join`.  If it hasn't, close Swifty, open it again and run
-another check; this may need 2-3 repeats due to a known bug.
+After everything is downloaded, Swifty will do some patching (this again takes
+a minute or so). It may still have that red rectangle for checking. Just rerun
+the check until it dissappears. While annoying, it is how Swifty works at the
+moment. Eventually, the red box should go away. If you have trouble with the
+recheck taking a very long time, poke os on Discord (`#arma-support`) and we
+will try and help.
 
 If you now click `Join`, Swifty will load Arma with the modpack and directly
 connect to the server. If you want to do mission editing, or play around in the
@@ -153,9 +154,9 @@ modpack:
 <img src="swifty3_ext_addons.png">
 
 NOTE: When editing missions, it can happen that these addtional mods create
-spurious dependencies (at least JSRS and Blastcore are know to do so). The
-easiest way to handle this is to have two separate tiles in Swifty's menu, one
-for playing one for editing. You can of course use the same mod dir, so you
+spurious dependencies (at least JSRS and Blastcore are known to do so). The
+easiest way to handle this is to have two separate entries in Swifty's menu,
+one for playing one for editing. You can of course use the same mod dir, so you
 don't have duplicate mods. 
 
 <img src="swifty3_main_full.png">

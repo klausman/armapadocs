@@ -13,7 +13,6 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [TFAR 1.x for players](mods/tfar_update/)
   - [TFAR 1.x for mission makers](mods/tfar1mm/)
   - [Useful Client-side mods](mods/clientside_mods/)
-  - [Mod updates (1H2019)](mods/mod_updates/)
 - [Mission Making](mission_making/)
   - [PA mission making guide](mission_making/guide)
   - [Mission making checklist](mission_making/checklist)
