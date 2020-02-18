@@ -102,6 +102,21 @@ and so on). You will also likely carry more tourniquets and bandages than the
 average grunt, so you can hand them out. Ideally put them in your backpack at
 mission start, so everyone can access them without your help.
 
+Here's a table that maps the medical menu strings to the actual blood loss,
+which will be handy for medics to decide how many trnasfusions of what size
+to give:
+
+Base blood volume is 6 liters.
+
+The patient has lost…|Liters lost
+---|---|
+…some blood|<=0.9
+…a lot of blood|<=1.8
+…a large amount of blood|<=2.4
+…a critical amount of blood|>2.4
+
+Losing more than half the base amount (i.e. 3 liters) is always fatal.
+
 ## Mission Makers
 
 For mission makers there are two parts to the new medical system: changes to
