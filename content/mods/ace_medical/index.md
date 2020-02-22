@@ -65,8 +65,9 @@ For treating yourself:
   tourniquets are reusable, so when you remove one, it goes back to your
   inventory.
 - If your head or torso are bleeding, bandage them quickly.
-- Bandage arms/legs and remove tourniquets. Note that tourniquets start
-  causing pain if left on for more than 5 minutes.
+- Bandage arms/legs and remove tourniquets. Note that tourniquets start causing
+  pain if left on for more than 5 minutes (sooner if you have more than one
+  applied).
 - Manage your pain using Morphine. Space doses out by at least 3-5 minutes.
 
 For treating somebody else:
