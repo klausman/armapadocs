@@ -8,11 +8,11 @@ weight: 5
 or after 2020-02-26.
 
 This document describes a simpler (but less powerful) way of using the
-`assignGear` functionality in the mission framework PA uses. The main
-complaint people have about `assignGear` is that it has many moving
-parts, requires precise copy&past of many different classnames, and that
-is hard to figure out what's wrong when it breaks. (Though the latter
-part is mostly Arma's fault, not that of F3 or `assignGear`.)
+`assignGear` functionality in the mission framework PA uses. The main complaint
+people have about `assignGear` is that it has many moving parts, requires
+precise copy & paste of many different classnames, and that is hard to figure
+out what's wrong when it breaks. (Though the latter part is mostly Arma's
+fault, not that of F3 or `assignGear`.)
 
 The main advantages of `assignGear` are that the player's kit is
 consistent between different players of the same role (all ARs get the
