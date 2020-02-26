@@ -4,6 +4,9 @@ weight: 5
 ---
 ## Introduction
 
+**NOTE:** This guide assumes you use the F3 framework as downloaded on
+or after 2020-02-26.
+
 This document describes a simpler (but less powerful) way of using the
 `assignGear` functionality in the mission framework PA uses. The main
 complaint people have about `assignGear` is that it has many moving
@@ -33,6 +36,31 @@ better UI, and the ability to save loadouts, but it also allows us to
 export the entirety of a loadout as something we can use in
 `assignGear`.
 
+But before we can do that, we need to tell the framework that we want to use
+the simpler version of `assignGear`. To do that, open `description.ext` and
+find this section (it should be around line 470):
+
+```cpp
+class assignGear
+{
+    // Defines the functions to preInit the compling of the assignGear function
+    // used by units.
+    file = "f\assignGear";
+    // If you want to use simple AssignGear, delete the line above and
+    // uncomment (remove the //) the line below.
+    //file = "f\assignGear_simple";
+    class assignGear{};
+};
+```
+
+Do just as the comment says: delete (or comment) the line that sayis `file =
+"f\assignGear";` and uncomment (delete the `//`) on the line that says `file =
+"f\assignGear_simple";`.
+
+This will ensure that the relevant scripted parts of the framework (including
+the init strings of the example mission units) will use the simplified scripts
+located in `f\assignGear_simple`.
+
 To export the current loadout into your clipboard, click `Export` at the
 bottom of the arsenal screen:
 
@@ -48,12 +76,12 @@ uniform, plus some items, like map and compass. This is the downside of this
 method: editing that nested data structure quickly becomes unwieldy, unless we
 just want to delete a few mags or change something obvious.
 
-But it doesn't matter much: we can save loadouts in the ACE arsenal, and
-the string we have here happens to be *exactly* what we want to use in
-`assignGear`. In the usual script (`f\assignGear\f_assignGar_nato.sqf`
-if we're playing as BLUFOR), we pick the role we want to change, e.g.
-`co`, `dc`, or `m`, and delete everything between the curly braces, so
-it looks like this:
+But it doesn't matter much: we can save loadouts in the ACE arsenal, and the
+string we have here happens to be *exactly* what we want to use in
+`assignGear`. In the simple script (`f\assignGear_simple\f_assignGar_nato.sqf`
+if we're playing as BLUFOR), we pick the role we want to change, e.g. `co`,
+`dc`, or `m`, and delete everything between the curly braces, so it looks like
+this:
 
 ```
     case co:
@@ -71,15 +99,14 @@ and radio inventory situation. We'll get to that below.
 
 ## Medical supplies
 
-We don't want to entirely disable the medical init scripts, since they
-do more than just set player gear. But we do want to stop them from
-messing with their inventory. Fortunately, that is all done in one of
-two files, in `f\ace3`, there is `ACE3_MedicalStandardClient.sqf` and
-`ACE3_MedicalAdvancedClient.sqf` (be careful to not edit the `Converter`
-files that have very similar names.
+We don't want to entirely disable the medical init scripts, since they do more
+than just set player gear. But we do want to stop them from messing with their
+inventory. Fortunately, that is all done in one file, in `f\ace3`, there is
+`ACE3_MedicalClient.sqf` (be careful to not edit the `Converter` file that
+has a very similar name).
 
-Just delete the entire *contents* of those two files. **Do not delete
-the files themselves.**
+Just delete the entire *contents* of the file. **Do not delete the file
+itself.**
 
 ## Radios and radio configuration
 
@@ -93,14 +120,14 @@ This approach to `assignGear` has the advantage of being relatively simple when
 creating loadouts: click them together in the ACE Arsenal, paste them into the
 file, done. It does have downsides, though, in that it's more likely that
 inconsistencies creep in, like accidentally giving the riflemen 40mm grenades
-they have no weapons for and the like.
+they have no weapons for.
 
 Furthermore, `assignGear` goes beyond just setting loadouts at start and on
 respawn: it can also be used to set the inventories of vehicles and supply
-boxes (note the `v_car` and other classes around line 750 of the `assignGear`
-script, as well as the `crate` classes below it). When using the script as
-originally intended, the crates/vehicles would have exactly the right equipment
-(spare weapons, ammo, supplies) that the players spawned with. In my
+boxes (note the `v_car` and other classes around line 750 of the classic
+`assignGear` script, as well as the `crate` classes below it). When using the
+script as originally intended, the crates/vehicles would have exactly the right
+equipment (spare weapons, ammo, supplies) that the players spawned with. In my
 experience, PA makes little use of that, so maybe not much is lost.
 
 
