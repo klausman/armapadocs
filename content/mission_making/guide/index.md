@@ -18,13 +18,14 @@ Below I will guide you step by step how to make your first mission.
 
 ## Download, unpack and set up the Example Mission and Extra Scripts
 
-1. Download the [F3\_PA framework](https://github.com/captainblaffer/F3_PA)
-   (https://github.com/captainblaffer/F3\_PA)<br/><img src="image7.png"/>
+1. Download the [PA framework](https://github.com/klausman/pafw/releases)
+   (https://github.com/klausman/pafw/releases)<br/><img src="image7.png"/>
 2. Place downloaded folders in A3 missions folder. </p> Open A3 missions
    folder in explorer. The file path will look something like this:
-   `C:\Users\klausman\Documents\Arma 3\oldmissions`<br/>
+   `C:\Users\klausman\Documents\Arma 3\mpmissions`<br/>
    *Note:* If the folder MPMissions does not exist, create it.<br/>
-   Unzip and place the downloaded folders in the MPMissions folder:
+   The ZIP will contain a folder named `pafw-0.0.1.zip` or similar. Unpack
+   it to the `mpmissions` folder and rename it to `pafw.Altis`:
    <img src="image6.png"/>
 3. Open the A3 mission editor.<br/>
    Start A3 with all of PA’s addons enabled. Then navigate yourself to the
@@ -32,14 +33,10 @@ Below I will guide you step by step how to make your first mission.
    LAN:<br/>
    <img src="image2.png"/><br/>
    In the next menu, find the framework missions by selecting Altis as map,
-   and then selecting *F3-PA-Master.Altis* in green color. Now press the ‘3D
+   and then selecting *pafw.Altis* in green color. Now press the ‘3D
    Editor’ button on bottom right. You will now load the framework mission
    into the A3 Editor.<br/>
    <img src="image5.jpg"/><br/>
-   Note: If you want to read up details on the F3 framework, here is our copy 
-   of their (now defunct) Official wiki:<br/>
-   But note the `F3_PA` framework is different from the official framework,
-   some features will function differently from how described on that wiki.<br/>
 
 ## Defining mission rules
 
@@ -50,7 +47,7 @@ map (Altis, Stratis etc.) you prefer.
 
 To create a new mission:
 
-1. While `F3_PA-master.Altis` mission is loaded in the editor, drag your mouse
+1. While `pafw.Altis` mission is loaded in the editor, drag your mouse
    over all the objects placed down in the mission so you select them all at
    the same time. It should include modules, markers, units and vehicles.
 2. Press CTRL+C on keyboard to copy.
@@ -59,23 +56,23 @@ To create a new mission:
 4. In your new, empty mission press CTRL+V to paste the previously copied
    objects. Note the objects may be in some weird spot in the corner of the
    map.
-5. In windows explorer, open the folder `F3\_PA-master.Altis.` Select all files
+5. In windows explorer, open the folder `pafw.Altis.` Select all files
    in that folder except for `mission.sqm`, and copy the files (CTRL+C)
 6. In windows explorer open the folder of your new mission, found somewhere in
    `\Documents\Arma 3\mpmissions`
 
 Paste the copied files (CTRL+V). Remember do not overwrite `mission.sqm`.
 
-You have now created a new mission which contains all the F3\_PA features,
+You have now created a new mission which contains all the PAFW features,
 settings, and pre-placed assets. Let’s continue to work on this mission from
-now on, so you can keep the F3\_PA-master.Altis mission unchanged and ready to
+now on, so you can keep the pafw.Altis mission unchanged and ready to
 be used for future missions.
 
 ## Mission rules & info are defined in several places
 
 1. Modules placed in the 3d editor
-2. `Init.sqf` (found in `\Documents\\Arma 3 \MPMissions\missionname.mapname`)
-3. `Description.ext` (same folder)
+2. `init.sqf` (found in `\Documents\Arma 3 \MPMissions\missionname.mapname`)
+3. `description.ext` (same folder)
 4. Slotting Screen Parameters
 5. In the editor: Settings > Addon Options
 
@@ -94,14 +91,14 @@ emit warnings about their deprecation. When in doubt, ask in
 
 ### `init.sqf`
 
-In `init.sqf` you can enable or disable certain F3 features, or tweak the
+In `init.sqf` you can enable or disable certain PAFW features, or tweak the
 values. You open this file with any text editor. I recommend
 [notepad++](https://notepad-plus-plus.org/download/v7.3.3.html) and getting the
 [SQF syntax highlighting](http://www.armaholic.com/page.php?id=8680) ‘addon’
 
 The commented text above each block of code should explain what it does.
 
-E.g. you can disable `f_safeStart` by commenting out (`//`) line 153.
+E.g. you can disable `f_safeStart` by commenting out (`//`) line 62.
 
 <img src="image3.png"/>
 
@@ -120,10 +117,8 @@ making an updated version of your mission always update this name.
 
 Parameters are mission settings that can be tweaked in the slotting screen, by
 pressing ‘parameters’ button at the top. These parameters are defined in
-`description.ext`, starting at line 151. You may tweak the default params as
-you desire, or activate certain F3 features like `f_param_weather.` Uncomment
-the code block to enable weather parameters, allowing the admin to customize
-weather & time of day.
+`description.ext`, starting at line 114. You may tweak the default params as
+you desire, or activate features.
 
 A few more notes on specific features:
 
@@ -133,19 +128,16 @@ enabled per default.
 You can turn it off in-game by opening the map screen and clicking ‘admin’
 under ‘briefing’.
 
-You can turn safe start off in init.sqf by commenting out line 153: `[] execVM
+You can turn safe start off in init.sqf by commenting out line 62: `[] execVM
 "f\safeStart\f\_safeStart.sqf";`
 
 **JIP** aka join in progress allows players who join post mission start to
-teleport to their squadmates. You can tweak the settings in init.sqf line 193:
-`// F3 - JIP setup (PA version)`
+teleport to their squadmates. You can tweak the settings in init.sqf line 68:
+`// SETTING: JIP setup (PA version)`
 
-If you wish to change the time of day or the weather, make sure the ToD &
-Weather parameter feature is not active, because that will overwrite your
-default settings.
-
-You can set the default settings in the 3d editor, go to toolbar, and click
-Attributes > Environment.
+If you wish to change the time of day or the weather, that is best done in the
+mission editor: in the 3d editor, go to toolbar, and click Attributes >
+Environment.
 
 Tip: For night time missions, check if the moon is visible, because if
 it isn’t, it will be almost pitch black (not fun without NVGs!)
@@ -157,8 +149,8 @@ mods, without everyone reinventing the wheel and settings being all over the
 place. This is especially useful for mods like ACE that have well over a
 hundred settings that players and units can tweak. As of mid-2019, most modern
 mods use CBA settings, so you should definitely go through the settings to
-familiarize yourself with the basic setup. Note that some settings are enforced
-on the server and can't be changed by players or mission makers.
+familiarize yourself with the basic setup. Note that some settings are
+enforced on the server and can't be changed by players or mission makers.
 
 The [CBA site](https://github.com/CBATeam/CBA_A3/wiki/CBA-Settings-System) has
 a good overview of how the basic Client/Mission/Server settings and overrides
@@ -186,7 +178,7 @@ Now pay attention, here follows an important rule:
 **IMPORTANT:** *Only use the factions NATO, CSAT, AAF, FIA.* Let me explain. In
 arma we have sides & factions. Sides are obvious (BLUFOR, OPFOR, Independent,
 Civilian). Factions are sub-groups within a side: NATO is a faction within
-BLUFOR. F3\_PA uses factions to figure out who is who. The only factions that
+BLUFOR. PAFW uses factions to figure out who is who. The only factions that
 are defined per default are the 4 I just mentioned, so unless you are an
 advanced user, only use these factions for ANY units (exception are vehicles,
 of course). We will use the `assignGear` script to change the default A3 NATO
@@ -202,7 +194,7 @@ Double click any pre-placed NATO soldier to open its attributes.
 
 - Variable name(e.g. `UnitNATO_A2_AT`): Name that the script code
   can use to find this unit. Not required to set this, except for
-  the medics. Medics require a specific name for the F3 specialist
+  the medics. Medics require a specific name for the specialist
   marker feature to work. E.g. `UnitNATO_CO_M.` You can find or
   change the names in
   `missionname.mapname\f\groupMarkers\f\_setLocalGroupMarkers.sqf`
@@ -211,7 +203,7 @@ Double click any pre-placed NATO soldier to open its attributes.
 
   `GrpNATO_ASL = group this; ["rat",this] call f_fnc_assignGear;`
 
-  The first part (`GrpNATO_ASL = group this;`) is required for the F3 group
+  The first part (`GrpNATO_ASL = group this;`) is required for the group
   markers feature. All units within one group must have the same name defined
   here. You can find or change all names in
   `missionname.mapname\f\groupMarkers\f\setLocalGroupMarkers.sqf`
@@ -233,9 +225,9 @@ Double click any pre-placed NATO soldier to open its attributes.
     units appear on the top of the list. Tweaking the unit order in
     slotting screen is very annoying, I recommend to just not bother.
 
-Besides units, F3 also interacts with ammo crates and vehicles. In an ammo
-crate or vehicle, add this code in its init to fill the crate with the right
-gear & ammo types for your custom loadouts.
+Besides units, classic assignGear also interacts with ammo crates and
+vehicles. In an ammo crate or vehicle, add this code in its init to fill the
+crate with the right gear & ammo types for your custom loadouts.
 
 `["crate_med", this, "blu_f"] call f_fnc_assignGear`
 
@@ -331,10 +323,10 @@ Backpack inventories work quite the same as defining loadout inventories. But
 it's in a different file. Open file: `f_assignGear_nato_b.sqf`
 
 The first you’ll notice is the `_loadout == 0, == 1, ==2` stuff. All backpack
-inventories are defined 3 times to support the F3 feature customize-able
-backpack sizes. In PA we literally never use this, so if you want to change
-backpack inventories I recommend only changing everything under `_loadout ==
-1` the default backpack size.
+inventories are defined 3 times to support the customize-able backpack sizes.
+In PA we literally never use this, so if you want to change backpack
+inventories I recommend only changing everything under `_loadout == 1` the
+default backpack size.
 
 Changing the inventory should be quite easy, just note the functions used are
 different. You can’t directly copy paste code from `f_assignGear_nato.sqf` to
@@ -343,6 +335,10 @@ different. You can’t directly copy paste code from `f_assignGear_nato.sqf` to
 Remember to save the files when done editing!
 
 ## Placing AI opponents
+
+<span style="color: red;">*Note:* This section is out of date while we bring
+the extra functionality up to speed with code changes (and quality) with the
+main framework</span>
 
 Editor placed AI might appear to be the ‘default’ or ‘normal’ way of placing
 your AI opponents, but it is actually the worst thing you can do. Too many AI
