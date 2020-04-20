@@ -17,6 +17,7 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
   - [PA mission making guide](mission_making/guide)
   - [Mission making checklist](mission_making/checklist)
   - [Murk Howto](mission_making/murk)
+  - [Reddit Post template and guide](mission_making/reddit_post)
   - [A primer for `assignGear`](mission_making/assigngear_primer/)
   - [A simpler `assignGear` approach](mission_making/simpler_assigngear)
   - [Custom airdrops for Simplex Support Services](mission_making/sss_custom_airdrop/)
