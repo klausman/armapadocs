@@ -27,3 +27,6 @@ This site lists assorted documentation for Arma 3, geared towards PA's needs.
 - [References](reference/)
   - [Su-25 armament overview](reference/su25_armaments/)
   - [TFAR 1.x function reference](reference/tfdocs/)
+
+<img src="https://cdn.battlemetrics.com/b/standardVertical/3451749.png?foreground=%23000000&linkColor=%231185ec&lines=%23333333&background=%23ffffff&chart=players%3A24H&chartColor=%2300ff07&showPlayers=&maxPlayersHeight=300" style="position:absolute; right: 2em; top: 8em"/>
+
